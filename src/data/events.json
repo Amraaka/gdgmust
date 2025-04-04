@@ -1,0 +1,97 @@
+[
+  {
+    "id": "1",
+    "title": "Hackathon 2025: The First Step",
+    "description": " Call for Sponsors: HACKATHON - The First Step 2025 Манай клуб оюутан залуусын технологийн ур чадварыг хөгжүүлэх ACKATHON: The First Step 2025 арга хэмжээг зохион байгуулах гэж байна!Яагаад ивээн тэтгэх хэрэгтэй вэ? Технологийн ирээдүйг бүтээлцэх Шинийг санаачлагч, чадварлаг хөгжүүлэгчдийг дэмжихБрэндээ технологийн салбарт тани",
+    "date": "2025-04-10T09:00:00",
+    "location": "Ulaanbaatar, Mongolia",
+    "exactLocation": "MUST - 1st floor, Room 101",
+    "image": "/images/eventspage/hackathon/2025/banner.png",
+    "ticketsAvailable": true,
+    "ticketPrice": 9999999,
+    "ticketCurrency": "₮",
+    "maxAttendees": 100,
+    "status": "upcoming",
+    "ticketLink": "https://shorturl.at/SrOUb",
+    "agenda": "11:00 AM - Opening Ceremony\n12:00 PM - Team Formation\n1:00 PM - Hacking Begins\n6:00 PM - Dinner Break\n8:00 PM - Workshop: Building with AI",
+    "requirements": "Participants should bring their own laptops and any necessary software installed.",
+    "additionalInfo": "Food and drinks will be provided throughout the event.",
+    "people": [
+      {
+        "type": "Panenlist",
+        "name": "Cute Lisa",
+        "role": "Event Organizer",
+        "bio": "Software Engineer at Google",
+        "image": "/images/eventspage/hackathon/2025/panelists/1.jpg"
+      },
+      {
+        "type": "Speaker",
+        "name": "Pretty Lisa",
+        "bio": "CTO at Chimege",
+        "image": "/images/eventspage/hackathon/2025/panelists/1.jpg"
+      },
+      {
+        "type": "Speaker",
+        "name": "Crazy Lisa",
+        "bio": "Professor at MUST",
+        "image": "/images/eventspage/hackathon/2025/panelists/1.jpg"
+      },
+      {
+        "type": "panenlist",
+        "name": "Lisa",
+        "role": "Hackathon Mentor",
+        "bio": "Software Engineer at Google",
+        "image": "/images/eventspage/hackathon/2025/panelists/1.jpg"
+      },
+      {
+        "type": "panenlist",
+        "name": "Lisa",
+        "bio": "Software Engineer at Google",
+        "image": "/images/eventspage/hackathon/2025/panelists/1.jpg"
+      },
+      {
+        "type": "panenlist",
+        "name": "Lisa",
+        "bio": "Software Engineer at Google",
+        "image": "/images/eventspage/hackathon/2025/panelists/1.jpg"
+      }
+    ],
+    "sponsors": [
+      {
+        "name": "Google",
+        "logo": "/images/eventspage/hackathon/2025/sponsors/google.png",
+        "url": "https://google.com"
+      },
+      {
+        "name": "Chimege",
+        "logo": "/images/eventspage/hackathon/2025/sponsors/chimege.png",
+        "url": "https://chimege.com/"
+      },
+      {
+        "name": "MUST",
+        "logo": "/images/eventspage/hackathon/2025/sponsors/must.png",
+        "url": "https://must.edu.mn/"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "title": "Build with AI - Introduction to Gemini",
+    "description": "Includes a hands-on workshop on how to use Gemini for your projects.",
+    "date": "2025-02-24T16:40:00",
+    "location": "Ulaanbaatar, Mongolia",
+    "image": "/images/eventspage/buildwithai/banner.png",
+    "ticketsAvailable": false,
+    "status": "past"
+  },
+  {
+    "id": "3",
+    "title": "DevFest 2024",
+    "description": "Join us for a day of talks, workshops, and networking!",
+    "date": "2024-11-30T12:00:00",
+    "location": "Ulaanbaatar, Mongolia",
+    "image": "/images/eventspage/devfest/2024/banner.jpg",
+    "ticketsAvailable": false,
+    "status": "past"
+  }
+]

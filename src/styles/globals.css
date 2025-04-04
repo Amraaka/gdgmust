@@ -1,0 +1,255 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .all-\[unset\] {
+    all: unset;
+  }
+}
+
+@import 'locomotive-scroll/dist/locomotive-scroll.css';
+
+/*
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+
+/* body {
+  font-family: 'ProductSansRegular', sans-serif;
+} */
+
+html, body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  margin: 0;
+}
+
+#layout-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+#content {
+  flex: 1;
+}
+
+.footer {
+  margin-top: auto;
+}
+
+
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+::-webkit-scrollbar {
+  height: 3px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(0, 0, 0);
+  /* border-radius: 3px; */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0084ff;
+  /* border-radius: 10px; */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #0068c9;
+}
+
+/* Add these @font-face declarations properly */
+@font-face {
+  font-family: 'ProductSansRegular';
+  src: url('../../public/fonts/ProductSansRegular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ProductSansItalic';
+  src: url('../../public/fonts/ProductSansItalic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'ProductSansBold';
+  src: url('../../public/fonts/ProductSansBold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* Mongolian fonts */
+@font-face {
+  font-family: 'Gilroy-Medium';
+  src: url('../../public/fonts/mn/Gilroy-Medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy-SemiBold';
+  src: url('../../public/fonts/mn/Gilroy-SemiBold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Y - font */
+@font-face {
+  font-family: 'AlegreyaSansSC-Medium';
+  src: url('../../public/fonts/mn/AlegreyaSansSC-Medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AlegreyaSansSC-Bold';
+  src: url('../../public/fonts/mn/AlegreyaSansSC-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+/* Default body font */
+body {
+  font-family: 'ProductSansRegular', sans-serif;
+}
+
+
+
+/* Fix the Mongolian locale selector to target body directly */
+html[lang="mn"] body {
+  font-family: 'ProductSansRegular','Gilroy-Medium', 'AlegreyaSansSC-Medium', sans-serif;
+}
+
+/* English locale (this is redundant but kept for clarity) */
+html[lang="en"] body {
+  font-family: 'ProductSansRegular', sans-serif;
+}
+
+
+
+
+/* Class-based font styling */
+.font-regular {
+  font-family: 'ProductSansRegular', sans-serif;
+}
+
+html[lang="mn"] .font-regular {
+  font-family: 'ProductSansRegular', 'Gilroy-Medium', 'AlegreyaSansSC-Medium', sans-serif;
+}
+
+
+/* bold */
+.font-bold {
+  font-family: 'ProductSansBold', sans-serif;
+}
+
+html[lang="mn"] .font-bold {
+  font-family: 'ProductSansBold', 'Gilroy-SemiBold', 'AlegreyaSansSC-Bold', sans-serif;
+}
+
+
+
+.font-semi {
+  font-family: 'ProductSansRegular', sans-serif;
+}
+
+html[lang="mn"] .font-semi {
+  font-family: 'Gilroy-SemiBold', 'AlegreyaSansSC-Bold', sans-serif;
+}
+
+
+
+.font-italic {
+  font-family: 'ProductSansItalic', sans-serif;
+}
+
+
+
+/* Add Mongolian italic if you have one */
+html[data-locale="mn"] .font-italic {
+  /* If you have a Gilroy-Italic font, add it here */
+  font-family: 'Gilroy-Medium', sans-serif;
+  font-style: italic;
+}
+/*
+---break--- */
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 3.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 3.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 3.9%;
+    --primary: 0 0% 9%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 0 0% 96.1%;
+    --secondary-foreground: 0 0% 9%;
+    --muted: 0 0% 96.1%;
+    --muted-foreground: 0 0% 45.1%;
+    --accent: 0 0% 96.1%;
+    --accent-foreground: 0 0% 9%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 89.8%;
+    --input: 0 0% 89.8%;
+    --ring: 0 0% 3.9%;
+    --chart-1: 12 76% 61%;
+    --chart-2: 173 58% 39%;
+    --chart-3: 197 37% 24%;
+    --chart-4: 43 74% 66%;
+    --chart-5: 27 87% 67%;
+    --radius: 0.5rem;
+  }
+  .dark {
+    --background: 0 0% 3.9%;
+    --foreground: 0 0% 98%;
+    --card: 0 0% 3.9%;
+    --card-foreground: 0 0% 98%;
+    --popover: 0 0% 3.9%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 0 0% 98%;
+    --primary-foreground: 0 0% 9%;
+    --secondary: 0 0% 14.9%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 0 0% 14.9%;
+    --muted-foreground: 0 0% 63.9%;
+    --accent: 0 0% 14.9%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 14.9%;
+    --input: 0 0% 14.9%;
+    --ring: 0 0% 83.1%;
+    --chart-1: 220 70% 50%;
+    --chart-2: 160 60% 45%;
+    --chart-3: 30 80% 55%;
+    --chart-4: 280 65% 60%;
+    --chart-5: 340 75% 55%;
+  }
+}
+/*
+---break--- */
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+

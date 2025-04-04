@@ -1,0 +1,164 @@
+[
+    {
+      "id": "1",
+      "name": "Ahmed Hassan",
+      "role": "GDG Lead",
+      "image": "/images/members/ahmed-hassan.jpg",
+      "bio": "Computer Science senior with a passion for building developer communities. Has been leading GDG MUST since 2023.",
+      "specialties": ["Community Building", "Flutter", "Cloud"],
+      "socialLinks": {
+        "linkedin": "https://linkedin.com/in/ahmedhassan",
+        "github": "https://github.com/ahmedhassan",
+        "twitter": "https://twitter.com/ahmedhassan"
+      },
+      "featured": true
+    },
+    {
+      "id": "2",
+      "name": "Nour Ahmed",
+      "role": "Technical Lead",
+      "image": "/images/members/nour-ahmed.jpg",
+      "bio": "Senior developer specializing in Android and Kotlin. Organizes technical workshops and hackathons at MUST.",
+      "specialties": ["Android", "Kotlin", "Firebase"],
+      "socialLinks": {
+        "linkedin": "https://linkedin.com/in/nourahmed",
+        "github": "https://github.com/nourahmed"
+      },
+      "featured": true
+    },
+    {
+      "id": "3",
+      "name": "Sara Mohamed",
+      "role": "Design Lead",
+      "image": "/images/members/sara-mohamed.jpg",
+      "bio": "UI/UX designer with a background in graphic design. Loves creating inclusive and accessible user experiences.",
+      "specialties": ["UI/UX", "Figma", "Design Systems"],
+      "socialLinks": {
+        "linkedin": "https://linkedin.com/in/saramohamed",
+        "behance": "https://behance.net/saramohamed"
+      },
+      "featured": true
+    },
+    {
+      "id": "4",
+      "name": "Omar Khaled",
+      "role": "Web Development Lead",
+      "image": "/images/members/omar-khaled.jpg",
+      "bio": "Front-end developer with expertise in React and Next.js. Passionate about web performance and modern JavaScript.",
+      "specialties": ["React", "Next.js", "TypeScript"],
+      "socialLinks": {
+        "linkedin": "https://linkedin.com/in/omarkhaled",
+        "github": "https://github.com/omarkhaled",
+        "website": "https://omarkhaled.dev"
+      },
+      "featured": true
+    },
+    {
+      "id": "5",
+      "name": "Fatima Ali",
+      "role": "Events Coordinator",
+      "image": "/images/members/fatima-ali.jpg",
+      "bio": "Business Administration student with excellent organizational skills. Manages all GDG MUST events and partnerships.",
+      "specialties": ["Event Management", "Community Outreach", "Marketing"],
+      "socialLinks": {
+        "linkedin": "https://linkedin.com/in/fatimaali",
+        "instagram": "https://instagram.com/fatimaali"
+      },
+      "featured": false
+    },
+    {
+      "id": "6",
+      "name": "Youssef Ibrahim",
+      "role": "ML/AI Lead",
+      "image": "/images/members/youssef-ibrahim.jpg",
+      "bio": "Computer Engineering student specializing in machine learning and AI. Organizes study jams and TensorFlow workshops.",
+      "specialties": ["TensorFlow", "Python", "Machine Learning"],
+      "socialLinks": {
+        "linkedin": "https://linkedin.com/in/youssefibrahim",
+        "github": "https://github.com/youssefibrahim",
+        "kaggle": "https://kaggle.com/youssefibrahim"
+      },
+      "featured": false
+    },
+    {
+      "id": "7",
+      "name": "Mariam Hassan",
+      "role": "Content Creator",
+      "image": "/images/members/mariam-hassan.jpg",
+      "bio": "Mass Communication major with a talent for storytelling. Manages GDG MUST social media and creates technical content.",
+      "specialties": ["Social Media", "Content Writing", "Video Production"],
+      "socialLinks": {
+        "linkedin": "https://linkedin.com/in/mariamhassan",
+        "medium": "https://medium.com/@mariamhassan",
+        "youtube": "https://youtube.com/mariamhassan"
+      },
+      "featured": false
+    },
+    {
+      "id": "8",
+      "name": "Mohamed Salah",
+      "role": "Cloud Lead",
+      "image": "/images/members/mohamed-salah.jpg",
+      "bio": "Google Cloud certified professional passionate about DevOps and cloud architecture. Runs hands-on labs for students.",
+      "specialties": ["Google Cloud", "DevOps", "Docker"],
+      "socialLinks": {
+        "linkedin": "https://linkedin.com/in/mohamedsalah",
+        "github": "https://github.com/mohamedsalah"
+      },
+      "featured": false
+    },
+    {
+      "id": "9",
+      "name": "Amira Mahmoud",
+      "role": "Outreach Coordinator",
+      "image": "/images/members/amira-mahmoud.jpg",
+      "bio": "Psychology student with interest in tech inclusion. Manages partnerships with other university clubs and organizations.",
+      "specialties": ["Community Building", "Partnerships", "Diversity & Inclusion"],
+      "socialLinks": {
+        "linkedin": "https://linkedin.com/in/amiramahmoud",
+        "twitter": "https://twitter.com/amiramahmoud"
+      },
+      "featured": false
+    },
+    {
+      "id": "10",
+      "name": "Karim Ahmed",
+      "role": "Flutter Developer",
+      "image": "/images/members/karim-ahmed.jpg",
+      "bio": "Mobile development enthusiast focused on cross-platform solutions. Has published multiple apps using Flutter.",
+      "specialties": ["Flutter", "Dart", "Firebase"],
+      "socialLinks": {
+        "linkedin": "https://linkedin.com/in/karimahmed",
+        "github": "https://github.com/karimahmed",
+        "playstore": "https://play.google.com/store/apps/developer?id=karimahmed"
+      },
+      "featured": false
+    },
+    {
+      "id": "11",
+      "name": "Aisha Mostafa",
+      "role": "Firebase Expert",
+      "image": "/images/members/aisha-mostafa.jpg",
+      "bio": "Backend developer specializing in Firebase and serverless architectures. Loves building scalable applications.",
+      "specialties": ["Firebase", "Cloud Functions", "Node.js"],
+      "socialLinks": {
+        "linkedin": "https://linkedin.com/in/aishamostafa",
+        "github": "https://github.com/aishamostafa"
+      },
+      "featured": false
+    },
+    {
+      "id": "12",
+      "name": "Tarek Hassan",
+      "role": "Data Science Lead",
+      "image": "/images/members/tarek-hassan.jpg",
+      "bio": "Statistics graduate with passion for data visualization and analysis. Conducts workshops on data science tools.",
+      "specialties": ["Python", "Data Visualization", "Statistics"],
+      "socialLinks": {
+        "linkedin": "https://linkedin.com/in/tarekhassan",
+        "github": "https://github.com/tarekhassan",
+        "kaggle": "https://kaggle.com/tarekhassan"
+      },
+      "featured": false
+    }
+  ]

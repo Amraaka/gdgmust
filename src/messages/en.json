@@ -1,0 +1,78 @@
+{
+  "HomePage": {
+    "introduction": {
+      "subheading": "Welcome to",
+      "heading": "GDG on Campus at Mongolian University of Science and Technology"
+    },
+    "about": {
+      "title": "Who Are We? (What is GDG on Campus?)",
+      "description": "Google Developer Groups (GDG) on Campus is a student-led initiative that brings together aspiring developers, tech enthusiasts, and innovators within our university. As an official extension of Google Developer Groups, our campus chapter is dedicated to fostering a vibrant community where students can learn, collaborate, and build projects that make a real impact.",
+      "button-seemore": "See more"
+    },
+    "FAQ": {
+      "question1": "Who can join GDG On-Campus at MUST?",
+      "answer1": "Any student at SICT of the Mongolian University of Science and Technology (MUST) with an interest in technology, software development, or Google’s tech ecosystem is welcome to join. No prior experience is required!",
+      "question2": "Is there a membership fee?",
+      "answer2": "No, GDG On-Campus at MUST is completely free to join. We are a community-driven initiative supported by Google Developer Groups.",
+      "question3": "What kind of events does GDG On-Campus organize?",
+      "answer3": "We organize a variety of events, including workshops, hackathons, tech talks, and networking sessions. These events are designed to help members learn new skills, collaborate on projects, and connect with industry professionals.",
+      "question4": "How can I get involved?",
+      "answer4": "You can get involved by attending our events, joining our online community, and participating in our projects. We also encourage members to take on leadership roles and help organize events."
+    }
+  },
+
+  "AboutPage": {
+    "TextParallax": "Who are we?"
+  },
+
+  "NotFoundPage": {
+    "error": "Page Not Found"
+  },
+
+  "CommunityPage": {
+    "SearchBar": {
+      "text": "Search for a member"
+    },
+    "header": {
+      "title": "GDG Members",
+      "description": "Explore the firsthand experiences of GDG members and uncover the impact they've created through their journeys and contributions."
+    },
+    "selectyear": "Select a year",
+    "JoinUs": {
+      "title": "Do you want to join us?",
+      "description": "Become a part of our community and contribute to an inspiring journey of innovation, collaboration, and growth.",
+      "buttonJoin": "Join as a GDG member",
+      "buttonDiscord": "Community Discord Server"
+    },
+    "filter":{
+      "seeAll": "See All",
+      "1": "Leader",
+      "2": "Creative",
+      "3": "Development",
+      "4": "Member Engagement",
+      "5": "Outreach"
+    }
+  },
+
+  "EventsPage": {
+    "SearchBar": {
+      "text": "Search for an event",
+      "notfound": "No events found.",
+      "upcoming-notfound": "No upcoming events found.",
+      "past-notfound": "No past events found."
+    },
+    "headerofevents": {
+      "upcoming": "Upcoming Events",
+      "past": "Past Events"
+    },
+    "in-event-info": {
+      "Register": "Register Now",
+      "BackButton": "Back to Events"
+    }
+  },
+  
+  "Pagination": {
+    "prev": "Prev",
+    "next": "Next"
+  }
+}
